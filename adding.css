@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Madimi+One&family=Micro+5&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Signika+Negative:wght@300..700&display=swap');
+
+*{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+  body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2f3138;
+    flex-direction: column;
+  }
+
+
+  .container {
+    margin-top: 30px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    width:50%;
+    padding: 20px;
+  }
+
+  input {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+
+  .input {
+    margin: 10px 0;
+  }
+
+  .butts {
+    display: flex;
+    justify-content: center;
+
+  
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: white;
+    border: .3px solid black;
+    margin: 0 20px;
+   
+  }
+
+  .add {
+    background-color: #41B06E;
+    transition: .3s;
+  }
+
+  .sort {
+    background-color: #9B3922;
+    transition: .3s;
+  }
+
+  .add:hover {
+    background-color: #41b06dcb;
+  }
+
+  .sort:hover {
+    background-color: #9b3822ce;
+  }
+
+  .mycards {
+    margin: 20px 0;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    width:50%;
+    padding: 20px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: none;
+  }
+
+  .p{
+    display: flex;
+    gap: 10px;
+
+  }
+
+  .key {
+    color: #ae4a94;
+    font-weight: bold;
+
+  }
+
+  .card {
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    display: none;
+   
+  }
